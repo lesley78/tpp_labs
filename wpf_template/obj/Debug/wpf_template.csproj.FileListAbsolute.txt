@@ -1,0 +1,15 @@
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.csproj.AssemblyReference.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\App.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template_MarkupCompile.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\bin\Debug\wpf_template.exe.config
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\bin\Debug\wpf_template.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\bin\Debug\wpf_template.pdb
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\MainWindow.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template_MarkupCompile.lref
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\MainWindow.baml
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.g.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.Properties.Resources.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.csproj.GenerateResource.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.csproj.CoreCompileInputs.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_template\obj\Debug\wpf_template.pdb

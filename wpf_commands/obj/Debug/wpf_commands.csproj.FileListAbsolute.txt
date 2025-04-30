@@ -1,0 +1,15 @@
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\bin\Debug\wpf_commands.exe.config
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\bin\Debug\wpf_commands.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\bin\Debug\wpf_commands.pdb
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.csproj.AssemblyReference.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\MainWindow.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\App.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands_MarkupCompile.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands_MarkupCompile.lref
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\MainWindow.baml
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.g.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.Properties.Resources.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.csproj.GenerateResource.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.csproj.CoreCompileInputs.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_commands\obj\Debug\wpf_commands.pdb

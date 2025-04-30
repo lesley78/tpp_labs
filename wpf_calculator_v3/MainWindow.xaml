@@ -1,0 +1,108 @@
+﻿<Window x:Class="wpf_calculator_v3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_calculator_v3"
+        mc:Ignorable="d"
+        Title="Анимированный калькулятор" Height="425" Width="321"
+        Background="#FF2D2D30">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF3F3F46"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FF555555"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <ScaleTransform/>
+                            </Border.RenderTransform>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF555555"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FF007ACC"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Height="450" Width="310">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer x:Name="HistoryScrollViewer" Grid.Row="0" VerticalScrollBarVisibility="Auto" Height="70" Margin="5"
+                      Background="#515251" Padding="5" VerticalContentAlignment="Bottom">
+            <TextBlock x:Name="HistoryText" TextWrapping="Wrap" FontSize="14" Foreground="#FFFFFF"/>
+        </ScrollViewer>
+
+        <TextBox x:Name="Display" Grid.Row="1" Height="70" Background="#a8a8a7" Margin="5" Padding="10" 
+                 TextAlignment="Right" VerticalContentAlignment="Center" FontSize="30" 
+                 Foreground="Black" IsReadOnly="True" BorderThickness="0"/>
+
+        <Grid Grid.Row="2" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Первый ряд -->
+            <Button x:Name="buttonClear" Content="C" Grid.Row="0" Grid.Column="0" Click="ButtonClear_Click"/>
+            <Button x:Name="buttonOpenBracket" Content="(" Grid.Row="0" Grid.Column="1" Click="ButtonOperation_Click"/>
+            <Button x:Name="buttonCloseBracket" Content=")" Grid.Row="0" Grid.Column="2" Click="ButtonOperation_Click"/>
+            <Button x:Name="buttonDivide" Content="/" Grid.Row="0" Grid.Column="3" Click="ButtonOperation_Click"/>
+
+            <!-- Второй ряд -->
+            <Button x:Name="buttonNum7" Content="7" Grid.Row="1" Grid.Column="0" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum8" Content="8" Grid.Row="1" Grid.Column="1" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum9" Content="9" Grid.Row="1" Grid.Column="2" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonMultiply" Content="*" Grid.Row="1" Grid.Column="3" Click="ButtonOperation_Click"/>
+
+            <!-- Третий ряд -->
+            <Button x:Name="buttonNum4" Content="4" Grid.Row="2" Grid.Column="0" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum5" Content="5" Grid.Row="2" Grid.Column="1" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum6" Content="6" Grid.Row="2" Grid.Column="2" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonMinus" Content="-" Grid.Row="2" Grid.Column="3" Click="ButtonOperation_Click"/>
+
+            <!-- Четвертый ряд -->
+            <Button x:Name="buttonNum1" Content="1" Grid.Row="3" Grid.Column="0" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum2" Content="2" Grid.Row="3" Grid.Column="1" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonNum3" Content="3" Grid.Row="3" Grid.Column="2" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonPlus" Content="+" Grid.Row="3" Grid.Column="3" Click="ButtonOperation_Click"/>
+
+            <!-- Пятый ряд -->
+            <Button x:Name="buttonDecimal" Content="." Grid.Row="4" Grid.Column="0" Click="ButtonDecimal_Click"/>
+            <Button x:Name="buttonNum0" Content="0" Grid.Row="4" Grid.Column="1" Click="ButtonNum_Click"/>
+            <Button x:Name="buttonEqual" Content="=" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Click="ButtonEquals_Click"/>
+        </Grid>
+    </Grid>
+</Window>

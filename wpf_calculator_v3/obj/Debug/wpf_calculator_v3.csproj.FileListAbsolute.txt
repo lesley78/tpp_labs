@@ -1,0 +1,15 @@
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\bin\Debug\wpf_calculator_v3.exe.config
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\bin\Debug\wpf_calculator_v3.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\bin\Debug\wpf_calculator_v3.pdb
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.csproj.AssemblyReference.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\MainWindow.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\App.g.cs
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3_MarkupCompile.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3_MarkupCompile.lref
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\MainWindow.baml
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.g.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.Properties.Resources.resources
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.csproj.GenerateResource.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.csproj.CoreCompileInputs.cache
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.exe
+C:\Users\flexm\Documents\Studies\My\2 семестр\ТПП\wpf_calculator_v3\obj\Debug\wpf_calculator_v3.pdb
